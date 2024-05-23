@@ -103,25 +103,38 @@
 #define LEDS_DPAD_DOWN   1
 #define LEDS_DPAD_RIGHT  2
 #define LEDS_DPAD_UP     3
-#define LEDS_BUTTON_B3   4
-#define LEDS_BUTTON_B4   5
-#define LEDS_BUTTON_R1   6
-#define LEDS_BUTTON_L1   7
-#define LEDS_BUTTON_B1   8
-#define LEDS_BUTTON_B2   9
-#define LEDS_BUTTON_R2   10
-#define LEDS_BUTTON_L2   11
-#define LEDS_BUTTON_A1   12
-#define LEDS_BUTTON_L3   13
-#define LEDS_BUTTON_R3   14
-#define LEDS_BUTTON_A2   15
+//#define LEDS_BUTTON_B3   4
+//#define LEDS_BUTTON_B4   5
+//#define LEDS_BUTTON_R1   6
+//#define LEDS_BUTTON_L1   7
+//#define LEDS_BUTTON_B1   8
+//#define LEDS_BUTTON_B2   9
+//#define LEDS_BUTTON_R2   10
+//#define LEDS_BUTTON_L2   11
+//#define LEDS_BUTTON_A1   12
+//#define LEDS_BUTTON_L3   13
+//#define LEDS_BUTTON_R3   14
+//#define LEDS_BUTTON_A2   15
+
+#define LEDS_BUTTON_B3   4  // PIN 10
+#define LEDS_BUTTON_B1   5  // PIN 11
+#define LEDS_BUTTON_B2   6  // PIN 12
+#define LEDS_BUTTON_B4   7  // PIN 13
+#define LEDS_BUTTON_L1   8  // PIN 06
+#define LEDS_BUTTON_L3   9  // PIN 07
+#define LEDS_BUTTON_R3   10 // PIN 08
+#define LEDS_BUTTON_R1   11 // PIN 09
+#define LEDS_BUTTON_A1   12 // PIN --
+#define LEDS_BUTTON_L2   13 // PIN 18
+#define LEDS_BUTTON_R2   14 // PIN 19
+#define LEDS_BUTTON_A2   15 // PIN --
 
 #define HAS_I2C_DISPLAY 1
 #define I2C0_ENABLED 1
 #define I2C0_PIN_SDA 0
 #define I2C0_PIN_SCL 1
-#define BUTTON_LAYOUT BUTTON_LAYOUT_STICKLESS
-#define BUTTON_LAYOUT_RIGHT BUTTON_LAYOUT_STICKLESSB
+#define BUTTON_LAYOUT BUTTON_LAYOUT_STICKLESS_16
+#define BUTTON_LAYOUT_RIGHT BUTTON_LAYOUT_STICKLESS_16B
 #define SPLASH_MODE SPLASH_MODE_STATIC
 #define SPLASH_DURATION 3000
 
